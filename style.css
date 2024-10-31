@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  background-color: #272424;
+  border-radius: 15px;
+  width: 80%;
+  margin: 40px auto;
+}
+header {
+  display: flexbox;
+  text-align: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 4rem;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  font-family: "Lobster", sans-serif;
+}
+
+header h1 span {
+  color: red;
+}
+
+header img {
+  width: 26%;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 15rem rgba(182, 0, 0, 1), 0px 0px 10rem rgba(182, 0, 0, 1);
+  border-radius: 20px;
+}
+
+header p {
+  font-size: 0.8em;
+}
+
+main {
+  text-align: justify;
+  padding: 20px 100px;
+}
+
+main h4 {
+  color: red;
+  padding: 20px 0 10px 0;
+}
+
+main ul {
+  list-style-position: inside;
+  line-height: 2.5rem;
+}
+
+footer {
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid rgba(136, 105, 26, 0.863);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: black;
+}
+
+footer a:hover {
+  background-color: #272424;
+  color: red;
+}
